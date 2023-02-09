@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ba6fd1-e2ae-44cd-8720-6fc8ea38dfb6" name="Changes" comment="" />
+    <list default="true" id="73ba6fd1-e2ae-44cd-8720-6fc8ea38dfb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/opps/Static_Keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/opps/Static_Keyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/P1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/P1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +17,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HLZwoEOcBChFJoPHnizhE0usir" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,13 +56,13 @@
       <recent name="com.opps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collection.ArrayListTest" />
+  <component name="RunManager" selected="Application.NestedPattern">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multithreding.A" />
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.collection.*" />
+          <option name="PATTERN" value="com.multithreding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interface_Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.opps.Interface_Demo" />
+    <configuration name="NestedPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.NestedPattern" />
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.opps.*" />
+          <option name="PATTERN" value="com.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.ques.ReverseString" />
+    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.P1" />
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.ques.*" />
+          <option name="PATTERN" value="com.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.opps.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.opps.Test" />
+    <configuration name="Static_Keyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.opps.Static_Keyword" />
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NestedPattern" />
+        <item itemvalue="Application.P1" />
+        <item itemvalue="Application.Static_Keyword" />
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.ArrayListTest" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.com.opps.Test" />
-        <item itemvalue="Application.Interface_Demo" />
       </list>
     </recent_temporary>
   </component>
