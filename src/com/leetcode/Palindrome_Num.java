@@ -5,6 +5,7 @@ public class Palindrome_Num {
         String num = String.valueOf(x);
         int start=0;
         int end=num.length()-1;
+        System.out.println(end);
         while(start<=end){
             if(num.charAt(start) != num.charAt(end))
             {
@@ -17,7 +18,7 @@ public class Palindrome_Num {
     }
 
     public static void main(String[] args){
-         int x=121;
+         int x=1211;
          Palindrome_Num p=new Palindrome_Num();
          System.out.println(p.isPalindrome(x));
     }

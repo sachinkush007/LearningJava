@@ -9,10 +9,13 @@ public class Overloading_Demo {
     {
         System.out.println(x+" : "+s);
     }
-    public static void main(String [] args)
+    public static void main()
     {
         Overloading_Demo o=new Overloading_Demo();
         o.show();
-        o.show(22 ,"sachin");
+       // main(sachin);
+
     }
+
+
 }

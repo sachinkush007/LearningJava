@@ -18,12 +18,12 @@ public class Two_Sum {
     }
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
-        int target = 17;
-        //Two_Sum t = new Two_Sum();
-       // t.twoSum(nums,target)
-        for (int y:twoSum(nums,target))
-
-            System.out.print(y+" ");
+        int target = 22;
+        Two_Sum t = new Two_Sum();
+        t.twoSum(nums,target);
+//        for (int y:twoSum(nums,target))
+//
+//            System.out.print(y+" ");
 
     }
 }

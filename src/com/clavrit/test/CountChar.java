@@ -9,11 +9,11 @@ public class CountChar {
         String str=sc.nextLine();
         System.out.println("Enter which char you want to count:");
         String want=sc.nextLine();
-        System.out.println(want);
-        String temp[]=str.split("");
+//        System.out.println(want);
+        String[] temp =str.split("");
         String t="";
         int count=0;
-        for (int i=0;i<temp.length;i++){
+        for(int i=0;i<temp.length;i++){
 
             System.out.println(want.equals(temp[i]));
             if(want.equals(temp[i])){
@@ -21,8 +21,8 @@ public class CountChar {
 
             }
         }
-        System.out.println(temp.length);
-        System.out.println(want+"occurs is:"+count);
+        System.out.println("Length"+temp.length);
+        System.out.println(want+ " occurs "+count +" times");
 
     }
 }
