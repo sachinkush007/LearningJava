@@ -13,8 +13,7 @@ public class ForEachLoop {
         {
             System.out.println(list);
         }
-        for (Integer e:list
-             ) {
+        for (Integer e:list) {
             System.out.println("Iterate List:"+e);
         }
 

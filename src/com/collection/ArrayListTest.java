@@ -36,5 +36,6 @@ public class ArrayListTest {
         }
         Collections.sort(s);
         System.out.println(s);
+        System.out.println(s.size());
     }
 }

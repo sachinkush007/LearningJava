@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class ReverseString implements Serializable {
 
     public static void main(String[] args) {
+
         String str = "Sachin";
         String reverse = "";
 

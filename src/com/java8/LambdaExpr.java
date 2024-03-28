@@ -39,7 +39,13 @@ public class LambdaExpr {
 
         number.forEach(n -> sum.addAndGet(n));
         System.out.println(sum.get());
+
+        System.out.println("**********************************************************");
+        Child child=()->"Sachin";
+        System.out.println(child.show());
     }
+
+
 
 }
 

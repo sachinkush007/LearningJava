@@ -14,16 +14,19 @@ public class CountCharacter {
         int size=uni.length;
          int i=0;
         Map<Character,Integer> map=new LinkedHashMap<>();
-        while (i!=size){
-            if(map.containsKey(uni[i])==false){
-                map.put(uni[i],1);
-            }
-            else {
-                int oldval=map.get(uni[i]);
-                int newval=oldval+1;
-                map.put(uni[i],newval);
-            }
-            i++;
+//        while (i!=size){
+//            if(!map.containsKey(uni[i])){
+//                map.put(uni[i],1);
+//            }
+//            else {
+//                int oldval=map.get(uni[i]);
+//                int newval=oldval+1;
+//                map.put(uni[i],newval);
+//            }
+//            i++;
+        for (Character s:uni) {
+        int occurrences=map.getOrDefault(s,0)+1;
+        map.put(s,occurrences);
         }
         Set<Map.Entry<Character,Integer>>hmap=map.entrySet();
         for (Map.Entry<Character,Integer>data:hmap){
