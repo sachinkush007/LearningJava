@@ -4,6 +4,7 @@ public class EvenAndOddMultithreading implements Runnable {
 
     int count = 1;
     final Object object;
+    String str;
 
     public EvenAndOddMultithreading(Object object) {
         this.object = object;
@@ -32,8 +33,8 @@ public class EvenAndOddMultithreading implements Runnable {
 
     public static void main(String[] args) {
         Object lock = new Object();
-        Runnable multithreading = new EvenAndOddMultithreading(lock);
-        Runnable multiThreading2 = new EvenAndOddMultithreading(lock);
+        EvenAndOddMultithreading multithreading = new EvenAndOddMultithreading(lock);
+        EvenAndOddMultithreading multiThreading2 = new EvenAndOddMultithreading(lock);
         new Thread(multithreading, "even").start();
         new Thread(multiThreading2, "Odd").start();
     }

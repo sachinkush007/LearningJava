@@ -1,6 +1,7 @@
 package com.java8;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.BiConsumer;
 
@@ -11,7 +12,7 @@ public class LambdaExpr {
         return a + b;
     }
 
-    //     (x,y)->{System.out.println(x+y);}
+//         (x,y)->{System.out.println(x+y);}
     public static void main(String[] args) {
         int result = LambdaExpr.add(1, 2);
         System.out.println("Simple ADD: "+result);
@@ -31,6 +32,8 @@ public class LambdaExpr {
         number.add(2);
         number.add(3);
         number.add(4);
+        Collections.sort(number,(a,b)->b-a);
+        System.out.println("Comparator"+number);
 
         AtomicInteger sum= new AtomicInteger();
         number.forEach((Integer n)->{

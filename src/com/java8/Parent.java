@@ -18,12 +18,16 @@ class MyClass{
         Parent myClass=new Children() {
             @Override
             public void show() {
-
+                System.out.println("Main method");
             }
         };
         myClass.hi();
         myClass.show();
+
+        Parent parent=new Children();
+        parent.show();
     }
+
 
 
 }

@@ -13,6 +13,9 @@ class Demo extends Overriding_Demo {
     }
     public static void main(String[] args){
         Demo d=new Demo();
+        Overriding_Demo demo=new Demo();
+        demo.show();
+
         d.show();
         d.show();
     }
